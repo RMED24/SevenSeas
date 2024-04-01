@@ -22,8 +22,12 @@ To get started with SevenSeas, follow these steps:
 
 To run SevenSeas, you'll need to set up the following environment variables:
 
-- `PUBLIC_API_URL`: The URL to the public API used by SevenSeas.
-- `PUBLIC_RD_CLIENT_ID`: The client ID for Real Debrid integration.
+### IGDB (Twitch)
+
+- `PUBLIC_TWITCH_CLIENT_ID`: Twitch client id (https://api-docs.igdb.com/#getting-started)
+- `PUBLIC_TWITCH_CLIENT_SECRET`: Twitch client secret (https://api-docs.igdb.com/#getting-started)
+
+- `PUBLIC_RD_CLIENT_ID`: Open source app rd client id found on the real debrid docs
 
 ## Contributing
 
@@ -35,14 +39,14 @@ your help makes SevenSeas better for everyone.
 - Built with [Tauri](https://tauri.app/) and [SvelteKit](https://kit.svelte.dev/).
 
 For support, feature requests, or contributions, please visit
-our [GitHub repository](<https://github.com/SevenSeas-team>) or contact us directly at discord.
+our [GitHub repository](https://github.com/SevenSeas-team) or contact us directly at discord.
 
 Dive into the ultimate gaming experience with SevenSeas today!
 
 ## Contact
 
 For support, feature requests, or contributions, please visit
-our [GitHub repository](<https://github.com/SevenSeas-team>) or contact us directly at discord.
+our [GitHub repository](https://github.com/SevenSeas-team) or contact us directly at discord.
 
 Dive into the ultimate gaming experience with SevenSeas today!
 

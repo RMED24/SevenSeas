@@ -16,6 +16,11 @@
 			"globalShortcut": {
 				"all": true
 			},
+			"http": {
+				"all": false,
+				"request": true,
+				"scope": ["https://api.igdb.com/*"]
+			},
 			"os": {
 				"all": false
 			},

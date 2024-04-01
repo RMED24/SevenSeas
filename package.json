@@ -52,6 +52,7 @@
 		"dayjs": "^1.11.10",
 		"embla-carousel-autoplay": "^8.0.0",
 		"embla-carousel-svelte": "^8.0.0",
+		"howlongtobeat": "^1.8.0",
 		"igdb-api-node": "^5.0.2",
 		"lucide-svelte": "^0.363.0",
 		"mode-watcher": "^0.3.0",

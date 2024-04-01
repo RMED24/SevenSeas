@@ -1,18 +1,18 @@
 <script lang="ts">
-	import type { IGDBData } from '$lib/@types';
+	import * as HoverCard from '$lib/components/ui/hover-card/index';
 	import fetcher from '$lib/utils/fetcher';
+	import type { IGDBReturnDataType } from '$lib/utils/igdb/types';
 	import { debounce } from '$lib/utils/utils';
-	import { Joystick, RotateCw, ShipWheel } from 'lucide-svelte';
+	import { Joystick, ShipWheel } from 'lucide-svelte';
 	import { onDestroy, onMount } from 'svelte';
 	import { writable } from 'svelte/store';
-	import * as HoverCard from '$lib/components/ui/hover-card/index';
 
 	// Store declarations
 	let searchTerm = writable<string>('');
 	export let isVisible = writable<boolean>(false);
 	let searchPerformed = writable<boolean>(false);
 	let isLoading = writable<boolean>(false);
-	let searchResults = writable<IGDBData[]>([]);
+	let searchResults = writable<IGDBReturnDataType[]>([]);
 
 	let searchInput: HTMLInputElement;
 
@@ -100,7 +100,7 @@
 						id="options"
 						role="listbox"
 					>
-<!--						TODO: shadcdn link preload on games-->
+						<!--						TODO: shadcdn link preload on games-->
 						{#if $searchPerformed && $searchResults.length === 0}
 							<div class="px-4 py-14 text-center sm:px-14">
 								<Joystick class="mx-auto h-6 w-6 text-gray-400" />
@@ -111,13 +111,12 @@
 								<div class="flex w-full">
 									<HoverCard.Root>
 										<HoverCard.Trigger
-										href="/info/{item.id}"
-										class="w-full cursor-default select-none rounded-md px-4 py-2 hover:cursor-pointer hover:bg-primary hover:text-white"
-										id="option-{id}"
-										role={'option'}
-
-									>
-										{item.name}
+											href="/info/{item.id}"
+											class="w-full cursor-default select-none rounded-md px-4 py-2 hover:cursor-pointer hover:bg-primary hover:text-white"
+											id="option-{id}"
+											role={'option'}
+										>
+											{item.name}
 										</HoverCard.Trigger>
 										<!--										TODO: hover card for games -->
 										<!--										<HoverCard.Content class="w-80">-->
@@ -127,7 +126,7 @@
 										<!--													<h4 class="text-sm font-semibold">@sveltejs</h4>-->
 										<!--													<p class="text-sm">Cybernetically enhanced web apps.</p>-->
 										<!--													<div class="flex items-center pt-2">-->
-										<!--														<CalendarDays class="mr-2 h-4 w-4 opacity-70" />{" "}-->
+										<!--														<CalendarDays class="w-4 h-4 mr-2 opacity-70" />{" "}-->
 										<!--														<span class="text-xs text-muted-foreground">-->
 										<!--            Joined September 2022-->
 										<!--          </span>-->

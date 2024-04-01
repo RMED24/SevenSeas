@@ -1,12 +1,12 @@
 import type {
-	AddTorrentResponse,
-	ErrorDetails,
-	InvokeErrorResponse,
-	ListTorrentsResponse,
-	RqbitAPI,
-	RqbitDesktopConfig,
-	TorrentDetails,
-	TorrentStats
+  AddTorrentResponse,
+  ErrorDetails,
+  InvokeErrorResponse,
+  ListTorrentsResponse,
+  RqbitAPI,
+  RqbitDesktopConfig,
+  TorrentDetails,
+  TorrentStats
 } from '$lib/@types/rqbit.types';
 
 import { invoke, type InvokeArgs } from '@tauri-apps/api/tauri';
@@ -95,9 +95,9 @@ export const makeAPI = (configuration: RqbitDesktopConfig): RqbitAPI => {
 		 * @returns {string|null} The URL for streaming logs or null if the listen address is not configured.
 		 */
 		getStreamLogsUrl: () => {
-			if (!configuration.http_api.listen_addr) {
-				return null;
-			}
+      if (!configuration.http_api) return null;
+			if (!configuration.http_api.listen_addr) return null;
+			
 			const port = configuration.http_api.listen_addr.split(':')[1];
 			if (!port) {
 				return null;
