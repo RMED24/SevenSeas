@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import type { ProviderInfoResponse } from '$lib';
 	import { Button } from '$lib/components/ui/button/index';
 	import * as Command from '$lib/components/ui/command/index.js';
 	import * as Dialog from '$lib/components/ui/dialog';
@@ -7,7 +8,6 @@
 	import { ScrollArea } from '$lib/components/ui/scroll-area/index';
 	import { Separator } from '$lib/components/ui/separator/index';
 	import { cn } from '$lib/utils.js';
-	import fetcher, { type ProviderInfoResponse } from '$lib/utils/fetcher';
 	import {
 		ChevronsRight,
 		Download,
@@ -18,7 +18,7 @@
 	} from 'lucide-svelte';
 	import Check from 'lucide-svelte/icons/check';
 	import ChevronsUpDown from 'lucide-svelte/icons/chevrons-up-down';
-	import { onMount, tick } from 'svelte';
+	import { tick } from 'svelte';
 	import { rqbitStore } from '../../../downloads/utils/rqbitController';
 
 	// Data Declarations
