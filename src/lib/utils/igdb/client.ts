@@ -4,7 +4,7 @@ import { http } from '@tauri-apps/api';
 import { Body } from '@tauri-apps/api/http';
 import { type HowLongToBeatEntry } from 'howlongtobeat';
 
-interface InfoReturn extends IGDBReturnDataType {
+export interface InfoReturn extends IGDBReturnDataType {
 	hltb: HowLongToBeatEntry | undefined;
 }
 
