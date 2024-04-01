@@ -27,6 +27,8 @@ To run SevenSeas, you'll need to set up the following environment variables:
 - `PUBLIC_TWITCH_CLIENT_ID`: Twitch client id (https://api-docs.igdb.com/#getting-started)
 - `PUBLIC_TWITCH_CLIENT_SECRET`: Twitch client secret (https://api-docs.igdb.com/#getting-started)
 
+### RD (Real Debrid)
+
 - `PUBLIC_RD_CLIENT_ID`: Open source app rd client id found on the real debrid docs
 
 ## Contributing
