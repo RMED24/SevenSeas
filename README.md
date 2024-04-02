@@ -41,8 +41,13 @@ To run SevenSeas, you'll need to set up the following environment variables:
   
 ## Contributing
 
-We welcome contributions to SevenSeas! Whether it's submitting bug reports, requesting features, or contributing code,
-your help makes SevenSeas better for everyone.
+We welcome contributions to SevenSeas! If you are looking for ways to contribute, here are some options:
+
+- Helping us write and improve the documentation
+- Writing code which you feel could improve the project
+- Helping us with bug-testing on pre-releases
+
+If you can't help us with any of this, no worries! We just appreciate that you're here along for the ride :D
 
 ## Acknowledgments
 
