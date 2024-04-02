@@ -1,12 +1,20 @@
 # SevenSeas: Your Ultimate Gaming Hub
 
-Dive into SevenSeas, where a vast selection of games meets community-driven enhancements. Experience seamless, secure
-gaming, tailored for every platform, in one universal hub. Built with the cutting-edge technology of Tauri and
+Dive into SevenSeas, with a vast selection of games combined with community-driven enhancements. Experience seamless, secure
+gaming in a single universal hub.
+
+SevenSeas is built with the cutting-edge technology of Tauri and
 SvelteKit, SevenSeas offers an unparalleled gaming experience that's fast, secure, and cross-platform.
 
 ## Features
 
-coming soon
+Whilst the project is still under the development, we have a lot of features in the works. Such as:
+
+- A variety of tools to organise your game collection
+- A built-in torrent client
+- A calendar to remind you about upcoming game releases
+- An API to allow the community to make third-party plugins
+- And much more in the future...
 
 ## Getting Started
 
@@ -24,13 +32,13 @@ To run SevenSeas, you'll need to set up the following environment variables:
 
 ### IGDB (Twitch)
 
-- `PUBLIC_TWITCH_CLIENT_ID`: Twitch client id (https://api-docs.igdb.com/#getting-started)
+- `PUBLIC_TWITCH_CLIENT_ID`: Twitch client ID (https://api-docs.igdb.com/#getting-started)
 - `PUBLIC_TWITCH_CLIENT_SECRET`: Twitch client secret (https://api-docs.igdb.com/#getting-started)
 
 ### RD (Real Debrid)
 
-- `PUBLIC_RD_CLIENT_ID`: Open source app rd client id found on the real debrid docs
-
+- `PUBLIC_RD_CLIENT_ID`: Open source app RD client ID found on the Real Debrid documentation (https://api.real-debrid.com/)
+  
 ## Contributing
 
 We welcome contributions to SevenSeas! Whether it's submitting bug reports, requesting features, or contributing code,
@@ -40,15 +48,12 @@ your help makes SevenSeas better for everyone.
 
 - Built with [Tauri](https://tauri.app/) and [SvelteKit](https://kit.svelte.dev/).
 
-For support, feature requests, or contributions, please visit
-our [GitHub repository](https://github.com/SevenSeas-team) or contact us directly at discord.
-
-Dive into the ultimate gaming experience with SevenSeas today!
+Thanks to everyone who helps us make this possible. A list of contributors can be found [here](https://github.com/SevenSeas-team/SevenSeas/graphs/contributors).
 
 ## Contact
 
 For support, feature requests, or contributions, please visit
-our [GitHub repository](https://github.com/SevenSeas-team) or contact us directly at discord.
+our [GitHub repository](https://github.com/SevenSeas-team) or contact us directly on the [Discord](https://discord.gg/mQpaWS3u24).
 
 Dive into the ultimate gaming experience with SevenSeas today!
 
@@ -56,4 +61,4 @@ Dive into the ultimate gaming experience with SevenSeas today!
 
 # ❤️
 
-Reminder that <strong><i>you are great, you are enough, and your presence is valued.</i></strong> If you are struggling with your mental health, please reach out to someone you love and consult a professional. You are not alone.
+Reminder that <strong><i>you are great, you are enough, and your presence is valued.</i></strong> If you are struggling with your mental health, please reach out to someone you love and consult a professional. You are not alone and there are plenty of resources online to help you.
