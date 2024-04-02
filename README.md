@@ -6,6 +6,10 @@ gaming in a single universal hub.
 SevenSeas is built with the cutting-edge technology of Tauri and
 SvelteKit, SevenSeas offers an unparalleled gaming experience that's fast, secure, and cross-platform.
 
+## FAQ
+
+We strongly encourage you to check out our landing page at [sevenseas.moe](https://sevenseas.moe/). Many of the questions are answered on this page.
+
 ## Features
 
 Whilst the project is still under the development, we have a lot of features in the works. Such as:
@@ -66,4 +70,4 @@ Dive into the ultimate gaming experience with SevenSeas today!
 
 # ❤️
 
-Reminder that <strong><i>you are great, you are enough, and your presence is valued.</i></strong> If you are struggling with your mental health, please reach out to someone you love and consult a professional. You are not alone and there are plenty of resources online to help you.
+Reminder that <strong><i>you are great, you are enough, and your presence is valued.</i></strong> If you are struggling with your mental health, please reach out to someone you love and consult a professional. You are not alone; there is a large range of resources online for support and guidance.
